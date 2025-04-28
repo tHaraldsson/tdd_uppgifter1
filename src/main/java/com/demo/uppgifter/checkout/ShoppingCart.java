@@ -1,13 +1,13 @@
 package com.demo.uppgifter.checkout;
 
 public class ShoppingCart {
-    private Discount discount;
+    private IDiscount IDiscount;
 
-    public ShoppingCart(Discount discount) {
-        this.discount = discount;
+    public ShoppingCart(IDiscount IDiscount) {
+        this.IDiscount = IDiscount;
     }
 
     public double calculateTotal(double total) {
-        return discount.applyDiscount(total);
+        return IDiscount.applyDiscount(total);
     }
 }

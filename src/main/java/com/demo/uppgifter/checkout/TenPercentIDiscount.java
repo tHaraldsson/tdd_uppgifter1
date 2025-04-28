@@ -1,9 +1,8 @@
 package com.demo.uppgifter.checkout;
 
-public class BlackFridayDiscount implements Discount {
-
+public class TenPercentIDiscount implements IDiscount {
     @Override
     public double applyDiscount(double total) {
-        return total * 0.5; //50% discount
+        return (total * 0.90); //10% discount
     }
 }
