@@ -1,8 +1,4 @@
-package com.demo.uppgifter;
-
-import com.demo.uppgifter.checkout.Discount;
-import com.demo.uppgifter.checkout.Item;
-import com.demo.uppgifter.checkout.TenPercentDiscount;
+package com.demo.uppgifter.checkout;
 
 public class Main {
     public static void main(String[] args) {
