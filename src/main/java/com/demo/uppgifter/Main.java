@@ -18,6 +18,7 @@ public class Main {
             System.out.println("total after discount: " + totalAfterDiscount);
         }
 
+
         public static double calculateTotalPrice(Item... items) {
             double totalPrice = 0;
             for (Item item : items) {
